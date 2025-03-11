@@ -6,29 +6,6 @@ using namespace std;
 char ch1;
 char ch2;
 
-void task1()
-{
-    cout << "Введите символ ch1: ";
-    cin >> ch1;
-}
-
-void task2()
-{
-    cout << "Введите символ ch2: ";
-    cin >> ch2;
-}
-
-void task3()
-{
-    cout << "ASCII код символа " << ch1 << ": " << (int)ch1 << endl;
-    cout << "ASCII код символа " << ch2 << ": " << (int)ch2 << endl;
-}
-
-void task4()
-{
-    cout << "Сумма кодов ASCII ch1 и ch2: " << ((int)ch1 + (int)ch2) << endl;
-}
-
 int main() {
     int o;
     for (;;)
@@ -44,16 +21,16 @@ int main() {
             case 0:
                 return 0;
             case 1: 
-                task1();
+                //task1();
                 break;
             case 2:
-                task2();
+                //task2();
                 break;
             case 3:
-                task3();
+                //task3();
                 break;
             case 4:
-                task4();
+                //task4();
                 break;
             default:
                 cout << "До свидания!" << endl;
