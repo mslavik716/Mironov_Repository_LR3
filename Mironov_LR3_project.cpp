@@ -15,6 +15,11 @@ void task2()
     cout << "Введите символ ch2: ";
     cin >> ch2;
 }
+void task3()
+{
+    cout << "ASCII код символа " << ch1 << ": " << (int)ch1 << endl;
+    cout << "ASCII код символа " << ch2 << ": " << (int)ch2 << endl;
+}
 int main() {
     int o;
     for (;;)
@@ -36,7 +41,7 @@ int main() {
                 task2();
                 break;
             case 3:
-                //task3();
+                task3();
                 break;
             case 4:
                 //task4();
