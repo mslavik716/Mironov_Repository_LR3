@@ -5,7 +5,11 @@ using namespace std;
 
 char ch1;
 char ch2;
-
+void task1()
+{
+    cout << "Введите символ ch1: ";
+    cin >> ch1;
+}
 int main() {
     int o;
     for (;;)
@@ -21,7 +25,7 @@ int main() {
             case 0:
                 return 0;
             case 1: 
-                //task1();
+                task1();
                 break;
             case 2:
                 //task2();
