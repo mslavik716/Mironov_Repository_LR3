@@ -20,6 +20,10 @@ void task3()
     cout << "ASCII код символа " << ch1 << ": " << (int)ch1 << endl;
     cout << "ASCII код символа " << ch2 << ": " << (int)ch2 << endl;
 }
+void task4()
+{
+    cout << "Сумма кодов ASCII ch1 и ch2: " << ((int)ch1 + (int)ch2) << endl;
+}
 int main() {
     int o;
     for (;;)
@@ -44,7 +48,7 @@ int main() {
                 task3();
                 break;
             case 4:
-                //task4();
+                task4();
                 break;
             default:
                 cout << "До свидания!" << endl;
