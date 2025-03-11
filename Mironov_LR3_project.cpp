@@ -10,6 +10,11 @@ void task1()
     cout << "Введите символ ch1: ";
     cin >> ch1;
 }
+void task2()
+{
+    cout << "Введите символ ch2: ";
+    cin >> ch2;
+}
 int main() {
     int o;
     for (;;)
@@ -28,7 +33,7 @@ int main() {
                 task1();
                 break;
             case 2:
-                //task2();
+                task2();
                 break;
             case 3:
                 //task3();
